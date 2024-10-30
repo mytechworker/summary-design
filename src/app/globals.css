@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-hanken-grotesk: "Hanken Grotesk", sans-serif;
+}
+
+/* Global font */
+body {
+  font-family: var(--font-hanken-grotesk);
+}
+
+/* Specific weight classes */
+.font-hanken-500 {
+  font-family: var(--font-hanken-grotesk);
+  font-weight: 500;
+}
+
+.font-hanken-700 {
+  font-family: var(--font-hanken-grotesk);
+  font-weight: 700;
+}
+
+.font-hanken-800 {
+  font-family: var(--font-hanken-grotesk);
+  font-weight: 800;
+}
