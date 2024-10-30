@@ -23,7 +23,7 @@ export default async function Home() {
   const summaryData = await transformSummaryData(summary_data);
 
   return (
-    <div className="flex min-h-screen justify-center items-center">
+    <div className="flex justify-center items-center min-h-screen bg-[#F2F6FF]">
       <Summary results={summaryData} />
     </div>
   );
